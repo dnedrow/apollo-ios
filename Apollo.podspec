@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = 'ApolloSPM'
+  s.name = 'Apollo'
   s.version = `scripts/get-version.sh`
   s.author = 'Apollo GraphQL'
   s.homepage = 'https://github.com/apollographql/apollo-ios'
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.14'
   s.tvos.deployment_target = '12.0'
   s.watchos.deployment_target = '5.0'
-  s.cocoapodsCompatibleImportStatements = false
+  s.cocoapodsCompatibleImportStatements = true
 
   cli_binary_name = 'apollo-ios-cli'
   s.preserve_paths = [cli_binary_name]
