@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = 'Apollo'
+  s.name = 'ApolloSPM'
   s.version = `scripts/get-version.sh`
   s.author = 'Apollo GraphQL'
   s.homepage = 'https://github.com/apollographql/apollo-ios'
